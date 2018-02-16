@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"3024 Color Scheme",
+		"ColorPicker",
+		"ColorSchemeEditor",
+		"DocBlockr",
+		"Emmet",
+		"Kulture",
+		"OmniSharp",
+		"Package Control",
+		"PackageResourceViewer",
+		"Twig"
+	]
+}
