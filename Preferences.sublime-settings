@@ -1,10 +1,10 @@
 {
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Oceanic_Next.tmTheme",
 	"font_size": 11,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Default.sublime-theme"
+	"theme": "Adaptive.sublime-theme"
 }
