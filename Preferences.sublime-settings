@@ -6,5 +6,7 @@
 	[
 		"Vintage"
 	],
-	"theme": "Adaptive.sublime-theme"
+	"default_line_ending": "unix",
+	"show_line_endings": true,
+	"theme": "Adaptive.sublime-theme",
 }
