@@ -9,5 +9,33 @@
 	{ "keys": ["f7"], "command": "insert_php_constructor_property" },
 	{ "keys": ["ctrl+k", "ctrl+*"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
 	{ "keys": ["ctrl+k", "ctrl+k"], "command": "run_macro_file", "args": {} },
+	{
+	    "keys": [
+	        "ctrl+5"
+	    ], 
+	    "args": {
+	        "action": "balance_outward"
+	    }, 
+	    "command": "run_emmet_action", 
+	    "context": [
+	        {
+	            "key": "emmet_action_enabled.balance_outward"
+	        }
+	    ]
+	},
+	{
+	    "keys": [
+	        "ctrl+shift+5"
+	    ], 
+	    "args": {
+	        "action": "balance_inward"
+	    }, 
+	    "command": "run_emmet_action", 
+	    "context": [
+	        {
+	            "key": "emmet_action_enabled.balance_inward"
+	        }
+	    ]
+	}, 
 
 ]
