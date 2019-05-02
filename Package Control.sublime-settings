@@ -24,6 +24,8 @@
 		"PHP Companion",
 		"PHP Getters and Setters",
 		"ScopeHunter",
+		"SublimeLinter",
+		"SublimeLinter-gcc",
 		"Twig"
 	]
 }
