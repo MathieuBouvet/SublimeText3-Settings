@@ -1,9 +1,9 @@
 {
+	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/User/Color Scheme - Default/USER - Monokai.sublime-color-scheme",
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Adaptive.sublime-theme",
-	"auto_complete_commit_on_tab": true,
+	"theme": "Adaptive.sublime-theme"
 }
