@@ -1,0 +1,12 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+		"gcc": {
+			"disable": false,
+			"include_dirs": [
+				"${file_path}/headers",
+				"${file_path}/../headers"
+			],
+		}
+	}
+}
