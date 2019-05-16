@@ -24,16 +24,11 @@ contexts:
         - meta_scope: diff.git.command
         - match: $
           pop: true
-        - match: a/
-          push:
-            - meta_content_scope: diff.git.file.a
-            - match: " "
-              pop: true
-        - match: b/
-          push:
-            - meta_content_scope: diff.git.file.b
-            - match: $
-              pop: true
+        - match: a/(.*)\sb/(.*)
+          captures:
+            1: diff.git.file.a
+            2: diff.git.file.b
+
     - match: '^((\*{15})|(={67})|(-{3}))$\n?'
       scope: meta.separator.diff
       captures:
