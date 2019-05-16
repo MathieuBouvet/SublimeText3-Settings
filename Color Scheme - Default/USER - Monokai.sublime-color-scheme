@@ -342,5 +342,25 @@
             "scope": "shebang",
             "foreground": "var(red)",
         },
+        // GIT FORMATS
+        {
+            "scope": "markup.deleted.diff",
+            "foreground": "var(red)",
+        },
+        {
+            "scope": "diff.git.command",
+            "background": "var(black)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "diff.git.file.a",
+            "foreground": "var(blue)",
+            "font_style": "bold",
+        },
+        {
+            "scope": "diff.git.file.b",
+            "foreground": "var(blue)",
+            "font_style": "bold",
+        },
     ]
 }
