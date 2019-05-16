@@ -1,5 +1,4 @@
 [
-	{ "keys": ["ctrl+'"], "command": "ChangeQuotes" },
 	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	// PHP COMPANION
 	{ "keys": ["f6"], "command": "expand_fqcn" },
