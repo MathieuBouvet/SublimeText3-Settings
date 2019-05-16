@@ -344,6 +344,14 @@
         },
         // GIT FORMATS
         {
+            "scope": "constant.language.branch-name.git.commit",
+            "font_style": "bold",
+        },
+        {
+            "scope": "markup.changed.file.content.git.commit",
+            "foreground": "var(orange)",
+        },
+        {
             "scope": "markup.deleted.diff",
             "foreground": "var(red)",
         },
