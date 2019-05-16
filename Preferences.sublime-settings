@@ -4,5 +4,6 @@
 	[
 		"Vintage"
 	],
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Adaptive.sublime-theme",
+	"auto_complete_commit_on_tab": true,
 }
