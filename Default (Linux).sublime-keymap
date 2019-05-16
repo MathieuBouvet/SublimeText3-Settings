@@ -7,4 +7,6 @@
     { "keys": ["f4"], "command": "import_namespace" },
     //{ "keys": ["shift+f12"], "command": "goto_definition_scope" }	
     { "keys": ["ctrl+space"], "command": "auto_complete"},
+    { "keys": ["ctrl+g"], "command": "find_under_expand"},
+    { "keys" : ["ctrl+t"], "command": "alignment"},
 ]
