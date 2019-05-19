@@ -326,16 +326,32 @@
         },
         // PHP ANNOTATIONS
         {
-            "scope": "annotation.route.php",
+            "scope": "annotation.php",
             "foreground": "var(yellow2)",
         },
         {
-            "scope": "annotation.route.string.php",
+            "scope": "annotation.string.php",
             "foreground": "var(orange3)",
         },
         {
-            "scope": "annotation.route.string.slug.php",
+            "scope": "annotation.string.slug.php",
             "foreground": "var(white3)",
+        },
+        {
+            "scope": "annotation.ponctuation.php",
+            "foreground": "var(yellow3)",
+        },
+        {
+            "scope": "annotation.identifier.php",
+            "foreground": "var(orange)",
+        },
+        {
+            "scope": "annotation.parameters.name.php",
+            "foreground": "var(white)",
+        },
+        {
+            "scope": "annotation.parameters.value.php",
+            "foreground": "var(purple)",
         },
         // SHEBANG
         {

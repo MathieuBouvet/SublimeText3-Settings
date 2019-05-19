@@ -701,8 +701,8 @@ contexts:
       scope: punctuation.definition.comment.begin.php
       push:
         - meta_scope: comment.block.documentation.phpdoc.php
-        - match: '@Route'
-          push: annotation_route
+        - match: '@Route|@ORM'
+          push: annotation
         - match: \*/
           scope: punctuation.definition.comment.end.php
           pop: true
@@ -732,18 +732,29 @@ contexts:
         # Consume the newline so that completions aren't shown at the end of the line
         - match: \n
           pop: true
-  annotation_route:
-    - meta_scope: annotation.route.php
-    - match: \)
+  annotation:
+    - meta_scope: annotation.php
+    - match: $
       pop: true
     - match: '"'
       push: annotation_string
+    - match: '\)|\(|\='
+      scope: annotation.ponctuation.php
+    - match: '(\\)([a-zA-Z]*)(\()'
+      captures:
+        1: annotation.ponctuation.php
+        2: annotation.identifier.php
+        3: annotation.ponctuation.php
+    - match: 'type|length|nullable'
+      scope: annotation.parameters.name.php
+    - match:  '[0-9\.\-]*|true|false'
+      scope: annotation.parameters.value.php
   annotation_string:
-    - meta_scope: annotation.route.string.php
+    - meta_scope: annotation.string.php
     - match: '"'
       pop: true
     - match: '{[a-zA-Z0-9_\-]*}'
-      scope: annotation.route.string.slug.php
+      scope: annotation.string.slug.php
   constants:
     - match: (?i)\b(TRUE|FALSE|NULL|__(FILE|DIR|FUNCTION|CLASS|METHOD|LINE|NAMESPACE)__|ON|OFF|YES|NO|NL|BR|TAB)\b
       scope: constant.language.php
