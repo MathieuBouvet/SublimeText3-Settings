@@ -347,7 +347,7 @@
         },
         {
             "scope": "annotation.parameters.name.php",
-            "foreground": "var(white)",
+            "foreground": "var(white3)",
         },
         {
             "scope": "annotation.parameters.value.php",
