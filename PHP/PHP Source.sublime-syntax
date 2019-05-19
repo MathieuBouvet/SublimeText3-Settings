@@ -738,14 +738,14 @@ contexts:
       pop: true
     - match: '"'
       push: annotation_string
-    - match: '\)|\(|\='
+    - match: '\)|\(|\=|,'
       scope: annotation.ponctuation.php
     - match: '(\\)([a-zA-Z]*)(\()'
       captures:
         1: annotation.ponctuation.php
         2: annotation.identifier.php
         3: annotation.ponctuation.php
-    - match: 'type|length|nullable'
+    - match: 'type|length|nullable|unique'
       scope: annotation.parameters.name.php
     - match:  '[0-9\.\-]*|true|false'
       scope: annotation.parameters.value.php
