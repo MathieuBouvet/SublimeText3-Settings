@@ -2,11 +2,16 @@
 {
 	"linters": {
 		"gcc": {
-			"disable": false,
-			"include_dirs": [
-				"${file_path}/headers",
-				"${file_path}/../headers"
-			],
+			"@disable": false,
+			"I": [
+				"${file_path}/src",
+			]
+		},
+		"g++": {
+			"@disable": false,
+			"I": [
+				"${file_path}/src",
+			]
 		}
 	}
 }
