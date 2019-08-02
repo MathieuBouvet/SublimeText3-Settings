@@ -9,4 +9,5 @@
     { "keys": ["ctrl+space"], "command": "auto_complete"},
     { "keys": ["ctrl+g"], "command": "find_under_expand"},
     { "keys" : ["ctrl+t"], "command": "alignment"},
+    { "keys": ["alt+a"], "command": "toggle_terminus_panel" },
 ]

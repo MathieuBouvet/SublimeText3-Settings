@@ -11,6 +11,7 @@
 			"@disable": false,
 			"I": [
 				"${file_path}/src",
+				"${file_path}",
 			]
 		}
 	}
