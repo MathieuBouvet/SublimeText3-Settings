@@ -28,6 +28,7 @@
 		"ScopeHunter",
 		"SublimeLinter",
 		"SublimeLinter-gcc",
+		"Terminal",
 		"Twig"
 	]
 }
