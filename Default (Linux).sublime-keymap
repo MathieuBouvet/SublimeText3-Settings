@@ -9,5 +9,25 @@
     { "keys": ["ctrl+space"], "command": "auto_complete"},
     { "keys": ["ctrl+g"], "command": "find_under_expand"},
     { "keys" : ["ctrl+t"], "command": "alignment"},
-    { "keys": ["alt+a"], "command": "toggle_terminus_panel" },
+    { 
+        "keys": ["alt+a"], "command": "toggle_terminus_panel", "args":{
+            "cwd": "${file_path:${folder}}",
+            "panel_name": "panel",
+        }
+    },
+    { 
+        "keys": ["ctrl+shift+a"], "command": "terminus_open", "args":{
+            "cwd": "${file_path:${folder}}",
+            "panel_name": "panel",
+        }
+    },
+    { 
+        "keys": ["alt+b"], "command": "terminus_open", "args":{
+            "cwd": "${file_path:${folder}}",
+        }
+    },
+    { 
+        "keys": ["ctrl+w"], "command": "terminus_close", "context": 
+            [{ "key": "terminus_view"}]
+    },
 ]
