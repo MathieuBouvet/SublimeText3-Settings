@@ -1,5 +1,5 @@
 {
 	"256color": true,
-	"theme": "dimmed-monokai",
+	"theme": "monokai",
 	"unix_term": "xterm-256color"
 }
