@@ -13,6 +13,9 @@
 				"${file_path}/src",
 				"${file_path}",
 			]
+		},
+		"flake8": {
+			"disable": false,
 		}
 	}
 }
