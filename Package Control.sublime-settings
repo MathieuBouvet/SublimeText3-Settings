@@ -29,6 +29,7 @@
 		"PHP Getters and Setters",
 		"ScopeHunter",
 		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-gcc",
 		"Terminus",
