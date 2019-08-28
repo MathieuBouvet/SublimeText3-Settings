@@ -16,6 +16,9 @@
 		},
 		"flake8": {
 			"disable": false,
+		},
+		"eslint": {
+			"disable": false,
 		}
 	}
 }
