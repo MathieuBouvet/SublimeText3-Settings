@@ -17,13 +17,14 @@
     },
     { 
         "keys": ["ctrl+shift+a"], "command": "terminus_open", "args":{
-            "cwd": "${file_path:${folder}}",
+            "cwd": "${folder:${file_path}}",
             "panel_name": "panel",
         }
     },
     { 
         "keys": ["alt+b"], "command": "terminus_open", "args":{
-            "cwd": "${file_path:${folder}}",
+            "cwd": "${folder:${file_path}}",
+            "title": "term",
         }
     },
     { 
